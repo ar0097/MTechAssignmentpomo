@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MTechAssignmentpomo/static/css/main.64e013ad.css",
+    "main.js": "/MTechAssignmentpomo/static/js/main.b6756424.js",
+    "index.html": "/MTechAssignmentpomo/index.html",
+    "main.64e013ad.css.map": "/MTechAssignmentpomo/static/css/main.64e013ad.css.map",
+    "main.b6756424.js.map": "/MTechAssignmentpomo/static/js/main.b6756424.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e013ad.css",
+    "static/js/main.b6756424.js"
+  ]
+}
