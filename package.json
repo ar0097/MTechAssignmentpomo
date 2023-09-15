@@ -2,7 +2,7 @@
   "name": "pomodroapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ar0097.github.io/MTechAssignmentpomo",
+  "homepage": "http://ar0097.github.io/MTechAssignmentpomo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
