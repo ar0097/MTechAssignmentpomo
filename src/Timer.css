@@ -1,0 +1,61 @@
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #3498db, #ffcc00);
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+  }
+  
+  .timer-button {
+    position: absolute;
+    top: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .timer.active {
+    background-color: #ffcc00; 
+    transition: background-color 0.5s;
+  }
+  
+  .timer h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .timer p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .timer-controls > button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
